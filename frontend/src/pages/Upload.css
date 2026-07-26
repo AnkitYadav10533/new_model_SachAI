@@ -1,0 +1,51 @@
+.upload-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 24px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.upload-page-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.page-title {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.page-subtitle {
+  color: #9CA3AF;
+  font-size: 1rem;
+}
+
+.upload-workspace-card {
+  padding: 32px;
+}
+
+.workspace-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.workspace-action-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.analyze-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 16px;
+  font-size: 1.05rem;
+}

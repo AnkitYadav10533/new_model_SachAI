@@ -1,0 +1,114 @@
+.explanation-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.signals-section, .observations-section {
+  padding: 24px;
+}
+
+.section-title-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.section-title-bar h3 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: #FFFFFF;
+}
+
+.signals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.signal-card {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.signal-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #F3F4F6;
+}
+
+.signal-desc {
+  font-size: 0.86rem;
+  color: #9CA3AF;
+  line-height: 1.5;
+}
+
+.signal-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.tag-pass {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--status-authentic);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.tag-warn {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--status-uncertain);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.tag-fail {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--status-deepfake);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.observations-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.observation-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #D1D5DB;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.bullet-point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  box-shadow: var(--cyan-glow);
+  margin-top: 8px;
+  flex-shrink: 0;
+}

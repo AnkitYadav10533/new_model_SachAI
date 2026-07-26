@@ -1,0 +1,20 @@
+.result-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 40px 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.result-page-header {
+  text-align: center;
+}
+
+.result-actions-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}

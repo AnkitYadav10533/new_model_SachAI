@@ -1,0 +1,32 @@
+.notfound-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 24px;
+}
+
+.notfound-card {
+  padding: 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 480px;
+}
+
+.icon-red {
+  color: var(--status-deepfake);
+}
+
+.notfound-card h1 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: #FFFFFF;
+}
+
+.notfound-card p {
+  color: #9CA3AF;
+  font-size: 0.95rem;
+}

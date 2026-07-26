@@ -1,0 +1,79 @@
+.file-preview-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+  border-color: rgba(0, 242, 254, 0.3);
+}
+
+.preview-media-container {
+  width: 100%;
+  max-height: 240px;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+}
+
+.preview-video {
+  width: 100%;
+  max-height: 240px;
+}
+
+.preview-audio {
+  width: 100%;
+  padding: 12px;
+}
+
+.preview-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.preview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.icon-success {
+  color: var(--status-authentic);
+}
+
+.file-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #FFFFFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.remove-btn {
+  color: #9CA3AF;
+  padding: 4px;
+  border-radius: 50%;
+  transition: var(--transition-fast);
+}
+
+.remove-btn:hover {
+  color: var(--status-deepfake);
+  background: rgba(239, 68, 68, 0.15);
+}
+
+.file-size {
+  font-size: 0.78rem;
+  color: #6B7280;
+}

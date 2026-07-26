@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temp uploads
+backend/src/uploads/*
+!backend/src/uploads/.gitkeep
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.log
